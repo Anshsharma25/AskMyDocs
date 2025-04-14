@@ -47,5 +47,13 @@ def get_user_input():
     call_groq_api(user_input)
     get_user_input()
 
+
+
+# Main function to start the chat
+def main():
+    print("Welcome to the Groq Chatbot! Type 'exit' to quit.")
+    get_user_input()
+
 if __name__ == "__main__":
+    print("Welcome to the Groq Chatbot! Type 'exit' to quit.")
     get_user_input()
