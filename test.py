@@ -1,3 +1,14 @@
+"""
+===============================================================================================
+# Groq API Chatbot Example
+This script demonstrates how to use the Groq API to create a simple chat application.
+
+It initializes a conversation with a system message and allows the user to ask questions.
+The bot responds based on the conversation history and the Groq API's response.
+===============================================================================================
+"""
+
+
 from groq import Groq
 
 client = Groq(api_key="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")
@@ -7,7 +18,7 @@ conversation_history = [{"role": "system", "content": "Act like a helpful assist
 
 def call_groq_api(user_query):
     try:
-        # Add user query to conversation history
+        # Add user query to conversation historywha
         conversation_history.append({"role": "user", "content": user_query})
         
         # Call the API with the updated conversation history
