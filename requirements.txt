@@ -1,0 +1,5 @@
+langchain
+faiss-cpu
+PyMuPDF
+google-generativeai
+python-dotenv
